@@ -1,0 +1,66 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    
+
+    background-color: darkblue;
+    color: chartreuse;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+    /* Sets the background to be half SVG and half solid color */
+    background-image: url(../images/sun-tornado.svg), linear-gradient(to right, darkblue 50%, transparent 50%);
+    background-size: cover, 100% 100%; /* SVG will cover the entire area */
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
+
+.container, .main-header, footer 
+{
+    width: 80%; 
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px darkblue;
+}
+
+.container
+{
+    margin: 0 auto;
+}
+
+.main-header
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid chartreuse;
+    margin-bottom: 100px;
+}
+  
+
+section
+{
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+aside
+{
+    float: right;
+    width: 25%;
+}
+
+footer
+{
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+    border-top: 2px solid chartreuse;
+}
